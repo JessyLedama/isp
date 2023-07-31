@@ -34,8 +34,8 @@
         'views/gateways_view.xml',
         'views/packages_setupitems_view.xml',
         'views/packages_view.xml',
-        'demo/demo.xml',
-        'demo/cron.xml',
+        # 'demo/demo.xml',
+        # 'demo/cron.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
