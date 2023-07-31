@@ -2,7 +2,7 @@
   <data>
     <!-- explicit list view definition -->
 
-    <record model="ir.ui.view" id="odoo_isp.connections_list">
+    <record model="ir.ui.view" id="mybizna_isp.connections_list">
       <field name="name">Connections List</field>
       <field name="model">mybizna.isp.connections</field>
       <field name="arch" type="xml">
