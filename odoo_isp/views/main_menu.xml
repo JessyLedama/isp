@@ -3,12 +3,12 @@
     <!-- explicit list view definition -->
 
     <!-- Top menu item -->
-    <menuitem name="ISP" id="mybizna_isp.menu_root" sequence="1" web_icon="mybizna_isp,static/images/icon.png"/>
+    <menuitem name="ISP" id="odoo_isp.menu_root" sequence="1" web_icon="odoo_isp,static/images/icon.png"/>
 
-    <menuitem id="mybizna_isp.menu_setting" parent="mybizna_isp.menu_root" sequence="7" name="Setting"/>
+    <menuitem id="odoo_isp.menu_setting" parent="odoo_isp.menu_root" sequence="7" name="Setting"/>
 
 
-    <menuitem id="mybizna_isp.menu_action" parent="mybizna_isp.menu_root" sequence="7" name="Action"/>
+    <menuitem id="odoo_isp.menu_action" parent="odoo_isp.menu_root" sequence="7" name="Action"/>
 
 
   </data>
