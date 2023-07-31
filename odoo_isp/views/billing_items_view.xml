@@ -18,7 +18,7 @@
 
     <!-- actions opening views on models -->
 
-    <record model="ir.actions.act_window" id="mybizna_isp.billing_items_action_window">
+    <record model="ir.actions.act_window" id="odoo_isp.billing_items_action_window">
       <field name="name">Billing Items</field>
       <field name="res_model">mybizna.isp.billing_items</field>
       <field name="view_mode">tree,form</field>
@@ -27,7 +27,7 @@
 
     <!-- server action to the one above -->
 
-    <record model="ir.actions.server" id="mybizna_isp.billing_items_action_server">
+    <record model="ir.actions.server" id="odoo_isp.billing_items_action_server">
       <field name="name">Billing Items</field>
       <field name="model_id" ref="model_mybizna_isp_billing_items"/>
       <field name="state">code</field>
