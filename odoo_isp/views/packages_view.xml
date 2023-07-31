@@ -2,7 +2,7 @@
   <data>
     <!-- explicit list view definition -->
 
-    <record model="ir.ui.view" id="mybizna_isp.packages_list">
+    <record model="ir.ui.view" id="odoo_isp.packages_list">
       <field name="name">Packages List</field>
       <field name="model">mybizna.isp.packages</field>
       <field name="arch" type="xml">
